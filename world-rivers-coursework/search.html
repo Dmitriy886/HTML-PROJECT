@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Реки мира – Поиск</title>
+    <link rel="stylesheet" href="./assets/css/macro-css.min.css" />
+    <link rel="stylesheet" href="./assets/css/animate.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="clear">
+    <nav class="navbar navbar-search d-flex flex-wrap align-center" id="navbar">
+      <a class="navbar-item" href="../index.html">Главная</a>
+      <a class="navbar-item" href="../index.html#world-rivers">Реки мира</a>
+      <a class="navbar-item" href="../index.html#facts">Факты</a>
+      <a class="navbar-item" href="../index.html#russian-rivers">Реки России</a>
+      <a class="navbar-item active" href="../search.html">Поиск</a>
+      <img src="./assets/images/svg/menu-line.svg" alt="Menu" id="navbar-btn" />
+    </nav>
+    <section class="search-bar d-flex">
+      <div>
+        <input type="text" placeholder="Поиск по рекам" id="search-input" /><img
+          src="./assets/images/svg/search-line.svg"
+          alt=""
+        />
+      </div>
+    </section>
+    <section class="sort-bar d-flex align-center flex-wrap mt-30 mb-30">
+      <p>Отсортировать по</p>
+      <ul class="clear d-flex">
+        <li id="sort-by-length" class="active">Длине реки</li>
+        <li id="sort-by-country">Стране</li>
+        <li id="sort-by-expense">Расходу воды</li>
+      </ul>
+    </section>
+    <section class="river-search d-flex align-center flex-wrap">
+      <div class="river-search-card d-flex flex-column">
+        <h3 class="river-details-title">Река «Амазонка»</h3>
+        <p>Самая полноводная река на Земле.</p>
+        <div class="d-flex align-center">
+          <span class="river-details-length">6 992 км</span>
+          <hr />
+          <span class="river-details-country">США</span>
+          <hr />
+          <span class="river-details-expense">209 000 м³/с</span>
+        </div>
+        <a href="./templates/amazonka.html">Подробнее</a>
+      </div>
+      <div class="river-search-card d-flex flex-column">
+        <h3 class="river-details-title">Река «Нил»</h3>
+        <p>Одна из самых протяженных в мире рек.</p>
+        <div class="d-flex align-center">
+          <span class="river-details-length">6 650 км</span>
+          <hr />
+          <span class="river-details-country">Египет</span>
+          <hr />
+          <span class="river-details-expense">2 830 м³/с</span>
+        </div>
+        <a href="./templates/nil.html">Подробнее</a>
+      </div>
+      <div class="river-search-card d-flex flex-column">
+        <h3 class="river-details-title">Река «Янцзы»</h3>
+        <p>Самая длинная и многоводная река Евразии.</p>
+        <div class="d-flex align-center">
+          <span class="river-details-length">6 300 км</span>
+          <hr />
+          <span class="river-details-country">Китай</span>
+          <hr />
+          <span class="river-details-expense">30 170 м³/с</span>
+        </div>
+        <a href="./templates/yanzi.html">Подробнее</a>
+      </div>
+      <div class="river-search-card d-flex flex-column">
+        <h3 class="river-details-title">Река «Лена»</h3>
+        <p>Впадает в море Лаптевых Северного Ледовитого океана.</p>
+        <div class="d-flex align-center">
+          <span class="river-details-length">4 294 км</span>
+          <hr />
+          <span class="river-details-country">Россия</span>
+          <hr />
+          <span class="river-details-expense">12 100 м³/с</span>
+        </div>
+        <a href="./templates/lena.html">Подробнее</a>
+      </div>
+      <div class="river-search-card d-flex flex-column">
+        <h3 class="river-details-title">Река «Миссури»</h3>
+        <p>Крупнейший по протяжённости приток Миссисипи.</p>
+        <div class="d-flex align-center">
+          <span class="river-details-length">3 767 км</span>
+          <hr />
+          <span class="river-details-country">США</span>
+          <hr />
+          <span class="river-details-expense">2 445 м³/с</span>
+        </div>
+        <a href="./templates/missuri.html">Подробнее</a>
+      </div>
+      <div class="river-search-card d-flex flex-column">
+        <h3 class="river-details-title">Река «Обь»</h3>
+        <p>Река в России, протекает по Западной Сибири.</p>
+        <div class="d-flex align-center">
+          <span class="river-details-length">3 700 км</span>
+          <hr />
+          <span class="river-details-country">Россия</span>
+          <hr />
+          <span class="river-details-expense">12 480 м³/с</span>
+        </div>
+        <a href="./templates/ob.html">Подробнее</a>
+      </div>
+      <div class="river-search-card d-flex flex-column">
+        <h3 class="river-details-title">Река «Енисей»</h3>
+        <p>Это река в Сибири, впадающая в Карское море.</p>
+        <div class="d-flex align-center">
+          <span class="river-details-length">3 487 км</span>
+          <hr />
+          <span class="river-details-country">Россия</span>
+          <hr />
+          <span class="river-details-expense">19 800 м³/с</span>
+        </div>
+        <a href="./templates/enisey.html">Подробнее</a>
+      </div>
+      <div class="river-search-card d-flex flex-column">
+        <h3 class="river-details-title">Река «Амур»</h3>
+        <p>Река на Дальнем Востоке в Восточной Азии.</p>
+        <div class="d-flex align-center">
+          <span class="river-details-length">2 824 км</span>
+          <hr />
+          <span class="river-details-country">Россия</span>
+          <hr />
+          <span class="river-details-expense">11 400 м³/с</span>
+        </div>
+        <a href="./templates/amur.html">Подробнее</a>
+      </div>
+    </section>
+    <script src="./assets/js/adaptiveNavbar.js"></script>
+    <script src="./assets/js/search.js"></script>
+  </body>
+</html>

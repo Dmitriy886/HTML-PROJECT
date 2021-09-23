@@ -5,7 +5,7 @@
 - Группа `ИКБО-16-19`
 <br>
 
-### [Демонстрация проекта на GitHub Pages](https://dmitriy886.github.io/world-rivers-coursework/)
+### [Демонстрация проекта на GitHub Pages](https://dmitriy886.github.io/HTML-PROJECT/)
 
 ![](./screenshot.png)
 
